@@ -255,6 +255,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   },)
               ),
               SizedBox(height: 20,),
+              Row(
+                children: [
+                  SizedBox(width: 10,),
+                  Text("Recently Played",style: TextStyle(fontSize: 30,color: Colors.white),),
+                ],
+              ),
+              SizedBox(height: 10,),
               Container(
                   height: 300,
                   width: double.infinity,

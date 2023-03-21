@@ -116,12 +116,13 @@ class _Search_screenState extends State<Search_screen> {
                               SizedBox(width: 30,),
                               ClipRect(
                                 child: Container(
-                                  height: 200,
-                                  width: 200,
+                                  height: 150,
+                                  width: 142,
                                   alignment: Alignment.bottomRight,
                                   child: Transform.rotate(
                                       angle: pi / 180 * (30),
-                                      child: ClipRect(
+                                      child: Padding(
+                                        padding: EdgeInsets.only(),
                                         child: Container(
                                           height: 60,
                                           width: 60,

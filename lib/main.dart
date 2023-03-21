@@ -4,6 +4,7 @@ import 'package:spotify_jenil/screens/home/provider/home_screen_provider.dart';
 import 'package:spotify_jenil/screens/home/view/home_screen.dart';
 import 'package:spotify_jenil/screens/libary/provider/libary_screen_provider.dart';
 import 'package:spotify_jenil/screens/libary/view/libary_screen.dart';
+import 'package:spotify_jenil/screens/premium/view/premium_screen.dart';
 import 'package:spotify_jenil/screens/search/provider/search_screen_provider.dart';
 import 'package:spotify_jenil/screens/search/view/search_screen.dart';
 
@@ -18,11 +19,12 @@ void main() {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        initialRoute: 'libary',
+        initialRoute: 'premium',
         routes: {
           '/': (context) => HomeScreen(),
           'search':(context) => Search_screen(),
           'libary': (context) => LibaryScreen(),
+          'premium':(context) => PremiumScreen(),
         },
       ),
     ),
